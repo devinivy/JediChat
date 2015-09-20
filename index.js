@@ -1,11 +1,15 @@
 var express = require('express');
 var app = express();
 var routes = require('./lib/routes')
+var chatroom = require('./lib/chatroom')
 
 // Add routes to our app
 routes(app);
 
-var server = app.listen(process.env.PORT || 3000, function () {
+// Setup chatroom routes/listeners
+var server = chatroom(app);
+
+server.listen(process.env.PORT || 3000, function () {
 
   var host = server.address().address;
   var port = server.address().port;
