@@ -1,0 +1,25 @@
+{
+  "name": "jedi_chat",
+  "version": "1.0.0",
+  "description": "Semi-Anonymous Jedi Chat Room APp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaegerpicker/JediChat.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Shawn Campbell <jaegerpicker@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaegerpicker/JediChat/issues"
+  },
+  "homepage": "https://github.com/jaegerpicker/JediChat#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
